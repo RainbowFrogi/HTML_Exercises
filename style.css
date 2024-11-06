@@ -1,0 +1,122 @@
+/* style.css */
+/*Body*/
+body {
+    margin: 0;
+    background-color: #BCB8B3;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C7C8CC;
+    padding: 0;
+}
+.navbar a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.logo {
+    display: flex;
+}
+
+/* Parent container */
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Ensure the parent container takes the full height of the viewport */
+    position: relative;
+    text-align: center;
+}
+
+/* Home image */
+.home_image {
+    padding-top: 200px;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 100%;
+}
+
+/* Image heading */
+.image_heading {
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    color: #333333;
+    font-size: 3em;
+}
+
+.image_bottom_text {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    color: #333333;
+    font-size: 1.5em;
+}
+
+/* Products page styling */
+.top-image {
+    width: 100%;
+    height: auto; 
+    margin: auto 55vh;
+}
+
+.product-container {
+    display: inline-flex;
+    justify-content: center;
+    margin: auto 300px;
+    padding-top: 00px;
+}
+
+.product {
+    text-align: center;
+    width: 16%;
+    background-color: #C7C8CC;
+    height: 650px;
+    margin: 30px;
+}
+
+.product h3 {
+    margin: 0px;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.product p {
+    margin: 0px;
+    margin-left: 32px;
+    text-align: left;
+}
+
+.product-image {
+    margin-top: 50px;
+    max-width: 80%;
+    height: auto;
+}
+
+/*Contact page styling*/
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 250px;
+    padding-top: 250px;
+    width: 100%;
+}
+
+.contact-image {
+    width: 50%;
+    height: auto;
+}
